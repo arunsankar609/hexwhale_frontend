@@ -6,6 +6,7 @@ module.exports = {
       'sm': '640px',
       'md':'768px',
       'vsm':'326px',
+      'smd':"976px",
       // => @media (min-width: 640px) { ... }
 
       'laptop': '1024px',
