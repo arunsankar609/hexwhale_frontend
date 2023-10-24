@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "../reusables/Cards";
 import { trendingProduct } from "../constantdata/productData";
-import image5 from "../images/image-7.jpg";
 import { Element } from "react-scroll";
 const Trending = () => {
   return (

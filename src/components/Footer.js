@@ -8,7 +8,6 @@ import {
 import {
   faInstagram,
   faFacebook,
-  faShareAlt,
   faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
 import orange from "../images/oranage.png";

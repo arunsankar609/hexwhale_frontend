@@ -1,5 +1,5 @@
 import React from "react";
-import { trendingProduct, saleOff } from "../constantdata/productData";
+import {  saleOff } from "../constantdata/productData";
 import banner2 from "../images/banner2.jpg";
 import banner3 from "../images/banner3.jpg";
 import Card from "../reusables/Cards";

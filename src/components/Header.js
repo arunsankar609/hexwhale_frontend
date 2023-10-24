@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, Element } from "react-scroll";
+import { Link } from "react-scroll";
 
 import logo from "../images/logoheader.png";
 import {
@@ -77,14 +77,7 @@ const Header = () => {
           >
             contact
           </Link>
-          {/* <div>
-            <h2
-              className={`md:block sm:hidden vsm:hidden hover:bg-gray-300 hover:text-black `}
-            >
-              
-            </h2>
-          </div> */}
-          {/* Add similar select elements for other options */}
+        
         </div>
         <div className="flex space-x-4">
           <div className="flex items-center">

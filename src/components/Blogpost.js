@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Element } from 'react-scroll';
-import { blogData, saleOff } from "../constantdata/productData";
+import { blogData } from "../constantdata/productData";
 import BlogCard from "../reusables/Blogcard";
 
 const Blogpost = () => {
