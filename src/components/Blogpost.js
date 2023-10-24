@@ -1,15 +1,18 @@
 import React from "react";
-import Card from "../reusables/Cards";
+import { Link, Element } from 'react-scroll';
 import { blogData, saleOff } from "../constantdata/productData";
 import BlogCard from "../reusables/Blogcard";
 
 const Blogpost = () => {
   return (
+    
     <div className="w-full">
+       
       <div className="w-full flex justify-center items-center">
         <div className="flex flex-col mt-6 justify-center items-center text-center w-[100%]">
           <div>
-            <h1 className="text-3xl font-bold">Our Blog Posts</h1>
+        
+        <h1 className="text-3xl font-bold">Our Blog Posts</h1>
             <h1>Feel free to go through our recent blog posts</h1>
           </div>
           <div className="flex flex-wrap mt-6 justify-center ">

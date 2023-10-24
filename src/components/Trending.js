@@ -2,9 +2,12 @@ import React from "react";
 import Card from "../reusables/Cards";
 import { trendingProduct } from "../constantdata/productData";
 import image5 from "../images/image-7.jpg";
+import { Element } from "react-scroll";
 const Trending = () => {
   return (
     <div className="w-full">
+       <Element name="shop">
+      </Element>
       <div className="w-full flex justify-center items-center">
         <div className="flex flex-col mt-6 justify-center items-center text-center w-[80%]">
           <div>

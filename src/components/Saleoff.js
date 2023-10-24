@@ -8,6 +8,7 @@ import walkers1 from "../images/image-13.jpg";
 import walkers2 from "../images/image-14.jpg";
 import walkers3 from "../images/image-15.jpg";
 import walkers4 from "../images/image-16.jpg";
+import { Element } from "react-scroll";
 
 const Saleoff = () => {
   return (
@@ -80,6 +81,9 @@ const Saleoff = () => {
           </div>
         </div>
       </div>
+      <Element name="blog">
+         
+         </Element> 
     </div>
   );
 };

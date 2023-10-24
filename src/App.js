@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import Trending from './components/Trending';
 import Saleoff from './components/Saleoff';
 import Blogpost from './components/Blogpost';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
      <Trending/>
      <Saleoff/>
      <Blogpost/>
+     <Footer/>
     </div>
   );
 }
